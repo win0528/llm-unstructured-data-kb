@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data directories (generated content)
+data_clean/
+data_chunk/
+vector_db/
+output/
+
+# Logs
+*.log
+
+# Model cache
+.cache/
+models/
+*.bin
+*.pt
+*.pth
+
+# 本地工作目录（助手记忆、沙箱缓存等，不应公开）
+.workbuddy/
+.issues/
+
+# 向量/索引二进制兜底（对应目录已忽略，这里再挡一层）
+*.npy
+*.onnx
+*.index
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
