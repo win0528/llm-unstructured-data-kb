@@ -168,6 +168,7 @@ python app.py
 ├── app.py                 # Streamlit Web 界面
 ├── config.py              # 配置文件
 ├── requirements.txt       # 依赖清单
+├── LICENSE                # MIT 许可证
 └── README.md              # 使用说明
 ```
 
@@ -424,7 +425,7 @@ A: 运行 `python tests/test_vector_store.py`（向量库逻辑）和 `python te
 
 ## 许可证
 
-MIT License
+MIT License —— 详见 [LICENSE](LICENSE)。
 
 ## 贡献
 
